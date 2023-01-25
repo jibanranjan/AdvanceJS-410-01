@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    background-color: #212121;
+    
+}
+::-webkit-scrollbar{
+    color: #212121;
+}
+.maincontainer{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    width: 85%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo p{
+    margin: 0.1rem;
+    color: white;
+
+}
+.logo i{
+    margin: 0.2rem;
+    color: white;
+
+}
+.pages{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    color: white;
+}
+
+.maincontent{
+    width: 100%;
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+.search{
+    width: 85%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.heading{
+    width: 60%;
+    height:30%;
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    color: white;
+}
+.heading button{
+    width: 10%;
+    height: 100%;
+    color: white;
+    background-color: #212121;
+    border: none;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+
+}
+.inputs{
+    width: 40%;
+    height: 40%;
+    border: 2px gray solid;
+    display: flex;
+  border-radius: 10px;
+}
+input{
+    width: 80%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: .5rem;
+}
+.inputs button{
+    width: 20%;
+    height: 100%;
+    background-color: #212121;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+
+
+    
+
+}
+.result{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.profile{
+    width: 250px;
+    height: 60px;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px black;
+
+}
+img{
+    width:  45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: .5rem;
+
+}
+.name{
+    width: 77%;
+    height: 100%;
+   margin-left: 0.5rem;
+   margin-top: .5rem;
+}
+
+.name a{
+    text-decoration: none;
+    color: gray;
+    font-size: 0.9rem;
+}
+
+@media only screen and (max-width:480px) {
+
+    .maincontainer{
+        width: 95%;
+
+    }
+    
+    .navbar{
+        width: 100%;
+
+    }
+    .logo{
+        width: 40%;
+      
+    }
+    .pages{
+        width: 40%;
+     
+    }
+    .search{
+        width: 100%;
+
+    
+    }
+    .heading{
+        width: 90%;
+
+    }
+    .heading button{
+     
+        font-size: 0.8rem;
+    
+    }
+    .inputs{
+        width: 80%;
+       
+    }
+    input{
+     font-size: 1rem;
+
+    }
+  
+    
+}
+
+@media only screen and (min-width:481px)  and (max-width:600px){
+
+    .navbar{
+        width: 100%;
+
+    }
+    .logo{
+        width: 50%;
+      
+    }
+    .pages{
+        width: 40%;
+     
+    }
+    .search{
+        width: 100%;
+
+    
+    }
+    .heading{
+        width: 90%;
+
+    }
+    .heading button{
+     
+        font-size: 0.8rem;
+    
+    }
+    .inputs{
+        width: 80%;
+       
+    }
+    input{
+     font-size: 1rem;
+
+    }
+  
+    
+}
+
+@media only screen and (min-width:601px)  and (max-width:800px){
+
+    .navbar{
+        width: 100%;
+
+    }
+    .logo{
+        width: 50%;
+      
+    }
+    .pages{
+        width: 40%;
+     
+    }
+    .search{
+        width: 80%;
+
+    
+    }
+    .heading{
+        width: 70%;
+
+    }
+    .heading button{
+     
+        font-size: 0.8rem;
+    
+    }
+    .inputs{
+        width: 40%;
+       
+    }
+    input{
+     font-size: 1rem;
+
+    }
+  
+    
+}
